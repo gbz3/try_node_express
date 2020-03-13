@@ -64,3 +64,19 @@ $ npm start
 ```
 →localhost:3000 をブラウザで開く
 
+## nodemon 導入
+```
+$ npm install -g nodemon
+$ nodenv rehash
+$ npm start
+
+> try-node-express@0.0.0 start /home/kashiba/git_repos/try_node_express
+> nodemon -e js,pug,css ./bin/www
+
+[nodemon] 2.0.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching dir(s): *.*
+[nodemon] watching extensions: js,pug,css
+[nodemon] starting `node ./bin/www`
+```
+
