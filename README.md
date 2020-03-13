@@ -59,7 +59,7 @@ removed 3 packages and updated 8 packages in 4.604s
 fixed 1 of 1 vulnerability in 247 scanned packages
 $ npm start
 
-> try-node-express@0.0.0 start /home/kashiba/git_repos/try_node_express
+> try-node-express@0.0.0 start $HOME/git_repos/try_node_express
 > node ./bin/www
 ```
 →localhost:3000 をブラウザで開く
@@ -70,7 +70,7 @@ $ npm install -g nodemon
 $ nodenv rehash
 $ npm start
 
-> try-node-express@0.0.0 start /home/kashiba/git_repos/try_node_express
+> try-node-express@0.0.0 start $HOME/git_repos/try_node_express
 > nodemon -e js,pug,css ./bin/www
 
 [nodemon] 2.0.2
